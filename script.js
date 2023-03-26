@@ -53,7 +53,7 @@ document.querySelector(".hold").addEventListener("click", function () {
     scoreRight = 0;
     document.querySelector(".current-score-right").textContent = scoreRight;
 
-    if (totalScoreRight < 10) {
+    if (totalScoreRight < 100) {
       document.querySelector(".player-left").classList.toggle("active");
       document.querySelector(".player-right").classList.toggle("active");
     } else {
@@ -68,7 +68,7 @@ document.querySelector(".hold").addEventListener("click", function () {
     scoreLeft = 0;
     document.querySelector(".current-score-left").textContent = scoreLeft;
 
-    if (totalScoreLeft < 10) {
+    if (totalScoreLeft < 100) {
       document.querySelector(".player-left").classList.toggle("active");
       document.querySelector(".player-right").classList.toggle("active");
     } else {
